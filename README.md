@@ -20,7 +20,7 @@ make down
 make logs
 ```
 
-## Keycloak Page URL:
-http://localhost:8080/
+# Keycloak Page URL:
+## http://localhost:8080/
 
-=> Change localhost to domain_name of ip as per setup.
+=> Change localhost to `domain_name` or `ip` as per setup.
