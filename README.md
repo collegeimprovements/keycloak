@@ -19,3 +19,8 @@ make down
 ```bash
 make logs
 ```
+
+## Keycloak Page URL:
+http://localhost:8080/
+
+=> Change localhost to domain_name of ip as per setup.
