@@ -15,7 +15,7 @@ make up
 make down
 ```
 
-## To monitor logs
+## To monitor logs:
 ```bash
 make logs
 ```
