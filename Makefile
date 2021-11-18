@@ -16,6 +16,9 @@ ps:
 psa:
 		- docker ps -a | grep keycloak
 
+watch:
+		- watch "docker ps -a | grep keycloak"
+
 logs:
 		- docker-compose logs --tail 100 -f
 
