@@ -25,6 +25,12 @@ make logs
 
 => Change localhost to `domain_name` or `ip` as per setup.
 
+# HTTPS
+
+```
+> cd certs
+```
+
 ```
 openssl req -x509 -sha256 -days 3650 -newkey rsa:4096 -keyout rootCA.key -out rootCA.crt
 openssl req -new -newkey rsa:4096 -keyout tls.key -out tls.csr -nodes
